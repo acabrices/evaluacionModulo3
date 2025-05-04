@@ -6,11 +6,11 @@
         "headers": [
           {
             "key": "X-Frame-Options",
-            "value": "ALLOW-FROM https://squealing-cent.surge.sh"  // Permite incrustar desde un dominio específico
+            "value": "ALLOW-FROM https://squealing-cent.surge.sh"
           },
           {
             "key": "Content-Security-Policy",
-            "value": "frame-ancestors 'self' https://squealing-cent.surge.sh"  // Alternativa moderna a X-Frame-Options
+            "value": "frame-ancestors 'self' https://squealing-cent.surge.sh"
           }
         ]
       }
