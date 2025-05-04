@@ -31,4 +31,6 @@ jobs:
     - name: Intalar Surge
       run: npm install --global surge
     - name: Deploy to Surge
-      run: surge ./build ${{vars.SURGE_URL}} --token ${{secrets.SURGE_TOKEN}}
+      run: surge ./build squealing-cent.surge.sh --token ${{secrets.SURGE_TOKEN}}
+      env:
+        SURGE_LOGIN: ${{ secrets.SURGE_LOGIN }}
