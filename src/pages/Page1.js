@@ -1,12 +1,19 @@
-import React from 'react';
-import { Card } from 'antd';
+import React from "react";
 
-const Page1 = () => {
+function App() {
   return (
-    <Card title="Página 1" style={{ width: 300, margin: 'auto', marginTop: 50, textAlign: 'center' }}>
-      <p>Contenido de la Página 1</p>
-    </Card>
+    <div>
+      <h1>Proyecto A</h1>
+      <iframe
+        src="https://evaluacion-modulo2.vercel.app"
+        title="Proyecto B"
+        width="100%"
+        height="600px"
+        style={{ border: "none" }}
+      ></iframe>
+    </div>
   );
-};
+}
 
-export default Page1;
+export default App;
+
