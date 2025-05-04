@@ -3,7 +3,7 @@ import React from "react";
 function App() {
   return (
     <div>
-      <h1>Proyecto A</h1>
+      <h1>Mi lista de Tareas</h1>
       <iframe
         src="https://evaluacion-modulo2.vercel.app"
         title="Proyecto B"
